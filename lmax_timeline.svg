@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+  <style>
+    .bg { fill: #ffffff; }
+    .line { stroke: #2b2b2b; stroke-width: 3; stroke-linecap: round; }
+    .node { fill: #1f77b4; stroke: #0b3a66; stroke-width: 1.5; }
+    .year { fill: #0b3a66; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; }
+    .label { fill: #222222; font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+    .pill { fill: #f3f6fb; stroke: #c7d7ee; stroke-width: 1; rx:8; ry:8; }
+    .title { fill: #0b3a66; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; }
+    .foot { fill: #666666; font-family: Arial, Helvetica, sans-serif; font-size: 11px; }
+  </style>
+
+  <!-- Background -->
+  <rect class="bg" x="0" y="0" width="1200" height="360"/>
+
+  <!-- Title -->
+  <text class="title" x="40" y="40">LMAX & Low-Latency Ecosystem — 发展时间线 (Timeline)</text>
+
+  <!-- Timeline line -->
+  <line class="line" x1="40" y1="180" x2="1160" y2="180"/>
+
+  <!-- Node 0 -->
+  <circle class="node" cx="60" cy="180" r="12"/>
+  <text class="year" x="60" y="160" text-anchor="middle">2000s</text>
+  <rect class="pill" x="20" y="196" width="80" height="36" rx="6" ry="6"/>
+  <text class="label" x="60" y="218" text-anchor="middle">Concepts: in-memory,</text>
+  <text class="label" x="60" y="232" text-anchor="middle">event-driven ideas</text>
+
+  <!-- Node 1 -->
+  <circle class="node" cx="180" cy="180" r="12"/>
+  <text class="year" x="180" y="160" text-anchor="middle">2010–2011</text>
+  <rect class="pill" x="140" y="196" width="80" height="36" rx="6" ry="6"/>
+  <text class="label" x="180" y="218" text-anchor="middle">LMAX design &</text>
+  <text class="label" x="180" y="232" text-anchor="middle">whitepaper</text>
+
+  <!-- Node 2 -->
+  <circle class="node" cx="300" cy="180" r="12"/>
+  <text class="year" x="300" y="160" text-anchor="middle">2011</text>
+  <rect class="pill" x="260" y="196" width="80" height="36" rx="6" ry="6"/>
+  <text class="label" x="300" y="218" text-anchor="middle">Disruptor</text>
+  <text class="label" x="300" y="232" text-anchor="middle">open-sourced</text>
+
+  <!-- Node 3 -->
+  <circle class="node" cx="420" cy="180" r="12"/>
+  <text class="year" x="420" y="160" text-anchor="middle">2012–2014</text>
+  <rect class="pill" x="380" y="196" width="80" height="36" rx="6" ry="6"/>
+  <text class="label" x="420" y="218" text-anchor="middle">Language ports &</text>
+  <text class="label" x="420" y="232" text-anchor="middle">tooling growth</text>
+
+  <!-- Node 4 -->
+  <circle class="node" cx="540" cy="180" r="12"/>
+  <text class="year" x="540" y="160" text-anchor="middle">2013–2015</text>
+  <rect class="pill" x="500" y="196" width="80" height="36" rx="6" ry="6"/>
+  <text class="label" x="540" y="218" text-anchor="middle">Aeron / SBE /</text>
+  <text class="label" x="540" y="232" text-anchor="middle">Chronicle appear</text>
+
+  <!-- Node 5 -->
+  <circle class="node" cx="660" cy="180" r="12"/>
+  <text class="year" x="660" y="160" text-anchor="middle">2014–2017</text>
+  <rect class="pill" x="620" y="196" width="80" height="36" rx="6" ry="6"/>
+  <text class="label" x="660" y="218" text-anchor="middle">Multi-Disruptor /</text>
+  <text class="label" x="660" y="232" text-anchor="middle">sharding</text>
+
+  <!-- Node 6 -->
+  <circle class="node" cx="780" cy="180" r="12"/>
+  <text class="year" x="780" y="160" text-anchor="middle">2015–2019</text>
+  <rect class="pill" x="740" y="196" width="80" height="36" rx="6" ry="6"/>
+  <text class="label" x="780" y="218" text-anchor="middle">Production adoption</text>
+  <text class="label" x="780" y="232" text-anchor="middle">& cross-domain use</text>
+
+  <!-- Node 7 -->
+  <circle class="node" cx="900" cy="180" r="12"/>
+  <text class="year" x="900" y="160" text-anchor="middle">2016–2020</text>
+  <rect class="pill" x="860" y="196" width="80" height="36" rx="6" ry="6"/>
+  <text class="label" x="900" y="218" text-anchor="middle">Academic</text>
+  <text class="label" x="900" y="232" text-anchor="middle">evaluation & critique</text>
+
+  <!-- Node 8 -->
+  <circle class="node" cx="1020" cy="180" r="12"/>
+  <text class="year" x="1020" y="160" text-anchor="middle">2019–2024</text>
+  <rect class="pill" x="980" y="196" width="80" height="36" rx="6" ry="6"/>
+  <text class="label" x="1020" y="218" text-anchor="middle">Cloud-native</text>
+  <text class="label" x="1020" y="232" text-anchor="middle">& HW acceleration</text>
+
+  <!-- Node 9 -->
+  <circle class="node" cx="1140" cy="180" r="12"/>
+  <text class="year" x="1140" y="160" text-anchor="middle">2024+</text>
+  <rect class="pill" x="1100" y="196" width="80" height="36" rx="6" ry="6"/>
+  <text class="label" x="1140" y="218" text-anchor="middle">Principles mainstreamed</text>
+  <text class="label" x="1140" y="232" text-anchor="middle">(mechanical sympathy)</text>
+
+  <!-- Footnote -->
+  <text class="foot" x="40" y="320">Note: 节点为概览性时间点；具体年份在不同项目/公司中有差异。请在演讲中口头补充每项要点。</text>
+</svg>
